@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #eee;
+}
+
+.page-wrap{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.page-wrap-2{
+    position: relative;
+    background-color: white;
+    width: fit-content;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    border-radius: 1rem;
+}
+
+.buttons{
+    margin-top: 1rem;
+}
+.button-2{
+    background-color:hsla(39, 100%, 94%, 0.952);;
+    height: 3rem;
+    border-radius: .5rem;
+    padding: 1rem .5rem;
+    width: 16rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.button-3{
+    background-color: hsla(168, 52%, 94%, 0.904);
+    height: 3rem;
+    margin-bottom: .5rem;
+    border-radius: .5rem;
+    padding: 1rem .5rem;
+    width: 16rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-4{
+    width: 16rem;
+    display: flex;
+    margin-bottom: .5rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color:hsla(234, 100%, 96%, 0.897) ;
+    height: 3rem;
+    border-radius: .5rem;
+    padding: 1rem .5rem;
+}
+
+.button-1{
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:hsla(0, 100%, 95%, 0.904) ;
+    height: 3rem;
+    width: 16rem;
+    border-radius: .5rem;
+    padding: 1rem .5rem;
+
+}
+
+.min-button-4{
+    display: flex;
+    align-items:center ;
+    gap: .5rem;
+}
+
+.min-button-3{
+    display: flex;
+    align-items:center ;
+    gap: .5rem;
+}
+
+.min-button-5{
+    display: flex;
+    align-items:center ;
+    gap: .5rem;
+}
+
+.min-button{
+    display: flex;
+    align-items:center ;
+    gap: .5rem;
+}
+
+.min-button p{
+    text-transform: capitalize;
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.min-button-3 p{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: hsl(39, 100%, 56%);
+}
+
+.min-button-4 p{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+    color:  hsl(166, 100%, 37%);
+}
+
+.min-button-5 p{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+    color:  hsl(234, 85%, 45%);
+}
+
+.buttons span{
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.min-button button{
+    height: 3rem;
+    border: 0;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 2rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.min-button button a{
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.heading h6{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.page-wrap-3{
+    border-radius: 1rem;
+    width: fit-content;
+    padding: 2.8rem 3.5rem;
+    position: absolute;
+    top: 0;
+    left: -85%;
+    background-color: hsl(241, 81%, 54%);
+}
+
+.h6-result p{
+color: white;
+text-transform:capitalize;
+font-size: 18px;
+margin-bottom: 1.5rem;
+}
+
+.min-page-wrap-1{
+    text-align: center;
+    align-items: center;
+   
+}
+
+.circle{
+    text-align: center;
+    align-items: center;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    background-color: rgb(67, 10, 226);
+   
+    margin-bottom: 1.5rem;
+    box-shadow: 3px 3px 5px hsl(241, 81%, 54%);
+    margin: auto;
+}
+
+.circle-text{
+display: grid;
+place-content: center;
+padding-top: 1.7rem;
+
+
+}
+
+.circle-text h4{
+    font-size: 55px;
+    font-weight: 1000;
+    color: white;
+}
+
+.circle-text p{
+    color: hsl(0, 0%, 100%);
+    font-size: .8rem;
+    
+}
+
+.h5-p h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+
+}
+
+.h5-p p{
+    color: white;
+    font-size: 12px;
+    width: 11rem;
+    margin-top: 1rem;
+    margin: auto;
+}
